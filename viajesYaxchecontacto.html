@@ -8,6 +8,13 @@
 			font-size: 18px;
 
 		}
+
+		h3{
+			font-family: sans-serif;
+			color: #900C3F;
+			align-content: left;
+
+		}
 	</style>
 	<!-- las siguientes etiquetas deben de ir primero en el encabezado; cualquier otra etiqueta, va después de éstas-->
 	<meta charset="utf-8">
@@ -34,9 +41,45 @@
 			  <li><a href="">Precios</a></li>
 		</ul>
 	</header>
-
+<br>
+<br>
 <!--aquí va el cuerpo de la página-->
-<!--IMAGEN PRINCIPAL AQUÍ-->
+<div class="container">
+	<div class="row">
+
+
+		<!--mapa-->
+		<div class="col-sm-6">
+			<h1>Ubícanos</h1>
+			<div id="map"></div>
+			<iframe 
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14939.38616374526!2d-100.41393399238589!3d20.594323636290575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35ad21d8e2209%3A0xbb8194bb8a5d8465!2sInstituto+Tecnol%C3%B3gico+de+Quer%C3%A9taro!5e0!3m2!1ses-419!2smx!4v1518129139270" 
+			width="500" height="450" frameborder="0" 
+			style="border:0" 
+			allowfullscreen></iframe>
+		</div>
+
+
+
+		<!--información de contacto y campos-->
+		<div class="col-sm-5">
+			<h3 align="left">Por favor, déjanos tus datos y nos comunicaremos a la brevedad contigo.</h3>
+			<form>
+				<p align="left">Nombre: </p>
+				<input type="text" name="Nombre" placeholder="Escribe tu nombre">
+				<br>
+				<p align="left">Correo electrónico: </p>
+				<input type="text" name="email" placeholder="Correo electrónico">
+				<br>
+				<p align="left">Comentarios adicionales</p>
+				<input type="text" name="comments" placeholder="Comentarios adicionales" height="100px">
+				<br>
+				<br>
+				<button>Enviar</button>
+			</form>
+		</div>
+	</div> 
+</div>
 
 
 <!--footer-->
